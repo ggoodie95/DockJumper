@@ -16,7 +16,11 @@ let package = Package(
         .executableTarget(
             name: "DockJumper",
             path: "Sources",
+            exclude: ["DockJumper/Assets"],
             sources: ["DockJumper"],
+            resources: [
+                .process("DockJumper/Assets")
+            ],
             swiftSettings: [
                 .unsafeFlags(["-parse-as-library"], .when(configuration: .debug)),
                 .unsafeFlags(["-parse-as-library"], .when(configuration: .release))

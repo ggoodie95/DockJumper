@@ -1,6 +1,6 @@
 # DockJumper
 
-DockJumper is a tiny native macOS game built with Swift Package Manager, AppKit, and SpriteKit. The app opens a compact 520×360 floating window that hosts a 60 FPS SpriteKit scene. Use the keyboard to scale ever-tougher platforms, rack up points, and chase the local leaderboard.
+DockJumper is a tiny native macOS game built with Swift Package Manager, AppKit, and SpriteKit. The app opens a compact 520×360 floating window that hosts a 60 FPS SpriteKit scene. Use the keyboard to scale ever-tougher platforms, rack up points, and chase the leaderboard.
 
 > **Pre-release:** this build is a work-in-progress headed for a Mac App Store launch once gameplay, polish, and monetisation features are complete.
 
